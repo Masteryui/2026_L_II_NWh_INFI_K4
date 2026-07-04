@@ -1,0 +1,10 @@
+# Ignoruj pliki tymczasowe
+*.log
+*.tmp
+
+# Ignoruj foldery (np. wirtualne środowisko Pythona)
+venv/
+__pycache__/
+
+# Ignoruj pliki z hasłami/danymi wrażliwymi
+.env
