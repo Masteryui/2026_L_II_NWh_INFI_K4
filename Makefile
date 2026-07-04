@@ -12,3 +12,9 @@ test:
 
 run:
 	python main.py
+
+docker_push:
+	docker login -u $(USERNAME) -p $(DOCKER_PASSWORD)
+	docker tag hello-world-printer $(USERNAME)/hello-world-printer:latest
+	docker push $(USERNAME)/hello-world-printer:latest
+	docker logout
