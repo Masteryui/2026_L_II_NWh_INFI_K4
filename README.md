@@ -84,3 +84,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+# Projekt: Nauka Gita i Dockera
+- Wdrożenie aplikacji w kontenerze Docker.
+- Ćwiczenia z gałęziami (branching) i scalaniem (merge).
